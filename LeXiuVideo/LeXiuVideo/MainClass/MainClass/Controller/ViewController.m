@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "VideoCell.h"
 #import <MJExtension.h>
-#import "VideoPlayController.h"
 #import "VideoPlayView.h"
 
 static CGFloat const cellH = 260.0;
@@ -48,9 +47,13 @@ static CGFloat const cellH = 260.0;
     self.tableView.delegate = self;
     self.tableView.rowHeight = cellH;
     [self.view addSubview:self.tableView];
-    
+   
     self.playView = [VideoPlayView videoPlayViewWithframe:CGRectMake(0, 0, self.view.frame.size.width, 260)];
     self.playView.backgroundColor = [UIColor whiteColor];
+    self.playView.videoPlayFinish = ^(VideoPlayView *view){
+        [view stop];
+        [view removeFromSuperview];
+    };
 }
 
 - (void)getJsonData{

@@ -11,7 +11,7 @@
 
 @interface VideoCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageViwe;
-@property (weak, nonatomic) IBOutlet UIButton *playButton;
+@property (weak, nonatomic) IBOutlet UIImageView *playImage;
 @end
 
 @implementation VideoCell
@@ -24,12 +24,6 @@
     return cell;
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-       
-    }
-    return self;
-}
 
 - (void)awakeFromNib{
     [super awakeFromNib];

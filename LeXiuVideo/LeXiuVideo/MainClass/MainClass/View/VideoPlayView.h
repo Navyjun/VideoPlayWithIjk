@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface VideoPlayView : UIView
+/// 当前视频播放完成的回调
+@property (nonatomic, copy) void(^videoPlayFinish)(VideoPlayView *view);
 
 + (instancetype)videoPlayViewWithframe:(CGRect)frame;
 

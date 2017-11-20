@@ -84,6 +84,8 @@
         };
         
         self.bottomToolBar.sliderChangeBlock = ^(CGFloat value){
+            weakSelf.indicatorView.hidden = NO;
+            [weakSelf.indicatorView startAnimating];
             weakSelf.player.currentPlaybackTime = weakSelf.player.duration * value;
         };
         
@@ -289,8 +291,14 @@
 - (void)moviePlayBackFinish:(NSNotification*)notification {
     int reason =[[[notification userInfo] valueForKey:IJKMPMoviePlayerPlaybackDidFinishReasonUserInfoKey] intValue];
     switch (reason) {
-        case IJKMPMovieFinishReasonPlaybackEnded:
+        case IJKMPMovieFinishReasonPlaybackEnded:{
+            // 播放完成
+            if (self.videoPlayFinish) {
+                self.videoPlayFinish(self);
+            }
             NSLog(@"playbackStateDidChange: IJKMPMovieFinishReasonPlaybackEnded: %d\n", reason);
+            
+        }
             break;
             
         case IJKMPMovieFinishReasonUserExited:
