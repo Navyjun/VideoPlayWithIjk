@@ -1,1 +1,2 @@
 # VideoPlayWithIjk
+基于ijkMediaFramework的视频播放器
