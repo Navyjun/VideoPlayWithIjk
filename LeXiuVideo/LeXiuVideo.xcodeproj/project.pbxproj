@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240CAC7F32A3676E7BC7397F /* libPods-LeXiuVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4313492C39BC8E028C3E6650 /* libPods-LeXiuVideo.a */; };
+		EE1829091F73A20A00EA4F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1829081F73A20A00EA4F9E /* main.m */; };
+		EE18290C1F73A20A00EA4F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18290B1F73A20A00EA4F9E /* AppDelegate.m */; };
+		EE18290F1F73A20A00EA4F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18290E1F73A20A00EA4F9E /* ViewController.m */; };
+		EE1829121F73A20A00EA4F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1829101F73A20A00EA4F9E /* Main.storyboard */; };
+		EE1829141F73A20A00EA4F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1829131F73A20A00EA4F9E /* Assets.xcassets */; };
+		EE1829171F73A20A00EA4F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1829151F73A20A00EA4F9E /* LaunchScreen.storyboard */; };
+		EE23683A1FBC0D9D0027BAF1 /* PlayBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2368381FBC0D9D0027BAF1 /* PlayBottomToolView.m */; };
+		EE23683F1FBC3D680027BAF1 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EE23683E1FBC3D680027BAF1 /* UIImage+Image.m */; };
+		EE7A7CB41FC2BA950023372C /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A7CB31FC2BA940023372C /* VideoCell.xib */; };
+		EE94401B1FBA86BE005FC814 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94401A1FBA86BD005FC814 /* libz.tbd */; };
+		EE94401D1FBA86C9005FC814 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94401C1FBA86C9005FC814 /* libbz2.tbd */; };
+		EE94402A1FBA8918005FC814 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9440291FBA8918005FC814 /* IJKMediaFramework.framework */; };
+		EE94402C1FBA8AFB005FC814 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94402B1FBA8AFA005FC814 /* libc++.tbd */; };
+		EE94402E1FBA8B5F005FC814 /* videoPageOne.json in Resources */ = {isa = PBXBuildFile; fileRef = EE94402D1FBA8B5F005FC814 /* videoPageOne.json */; };
+		EE9440311FBA8CCD005FC814 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9440301FBA8CCD005FC814 /* VideoModel.m */; };
+		EE9440351FBA8DC0005FC814 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9440331FBA8DC0005FC814 /* VideoCell.m */; };
+		EE94403A1FBA984B005FC814 /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9440391FBA984B005FC814 /* VideoPlayView.m */; };
+		EE94403F1FBABC38005FC814 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94403E1FBABC38005FC814 /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4313492C39BC8E028C3E6650 /* libPods-LeXiuVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeXiuVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE09823248E4C28D78A8BBE /* Pods-LeXiuVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeXiuVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeXiuVideo/Pods-LeXiuVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		E76061682EFDA1571619C1CD /* Pods-LeXiuVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeXiuVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeXiuVideo/Pods-LeXiuVideo.release.xcconfig"; sourceTree = "<group>"; };
+		EE1829041F73A20A00EA4F9E /* LeXiuVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeXiuVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1829081F73A20A00EA4F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE18290A1F73A20A00EA4F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE18290B1F73A20A00EA4F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE18290D1F73A20A00EA4F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE18290E1F73A20A00EA4F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE1829111F73A20A00EA4F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1829131F73A20A00EA4F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1829161F73A20A00EA4F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1829181F73A20A00EA4F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2368371FBC0D9D0027BAF1 /* PlayBottomToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayBottomToolView.h; sourceTree = "<group>"; };
+		EE2368381FBC0D9D0027BAF1 /* PlayBottomToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayBottomToolView.m; sourceTree = "<group>"; };
+		EE23683D1FBC3D680027BAF1 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		EE23683E1FBC3D680027BAF1 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		EE7A7CB31FC2BA940023372C /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		EE94401A1FBA86BD005FC814 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EE94401C1FBA86C9005FC814 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		EE94401E1FBA86DA005FC814 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE94401F1FBA86F4005FC814 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE9440201FBA8706005FC814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE9440211FBA8716005FC814 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE9440221FBA8723005FC814 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EE9440231FBA8731005FC814 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EE9440241FBA8746005FC814 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EE9440251FBA8753005FC814 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EE9440261FBA8762005FC814 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE9440271FBA876D005FC814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE9440281FBA877F005FC814 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		EE9440291FBA8918005FC814 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		EE94402B1FBA8AFA005FC814 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE94402D1FBA8B5F005FC814 /* videoPageOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoPageOne.json; sourceTree = "<group>"; };
+		EE94402F1FBA8CCD005FC814 /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		EE9440301FBA8CCD005FC814 /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		EE9440321FBA8DC0005FC814 /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		EE9440331FBA8DC0005FC814 /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		EE9440381FBA984B005FC814 /* VideoPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
+		EE9440391FBA984B005FC814 /* VideoPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
+		EE94403E1FBABC38005FC814 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1829011F73A20A00EA4F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240CAC7F32A3676E7BC7397F /* libPods-LeXiuVideo.a in Frameworks */,
+				EE94402C1FBA8AFB005FC814 /* libc++.tbd in Frameworks */,
+				EE94403F1FBABC38005FC814 /* libstdc++.tbd in Frameworks */,
+				EE94401B1FBA86BE005FC814 /* libz.tbd in Frameworks */,
+				EE94401D1FBA86C9005FC814 /* libbz2.tbd in Frameworks */,
+				EE94402A1FBA8918005FC814 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E3BCFF20FFF4913B05C31E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE09823248E4C28D78A8BBE /* Pods-LeXiuVideo.debug.xcconfig */,
+				E76061682EFDA1571619C1CD /* Pods-LeXiuVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8DB7943F2C9DAF7F6116A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE94403E1FBABC38005FC814 /* libstdc++.tbd */,
+				EE94402B1FBA8AFA005FC814 /* libc++.tbd */,
+				EE9440291FBA8918005FC814 /* IJKMediaFramework.framework */,
+				EE9440281FBA877F005FC814 /* VideoToolbox.framework */,
+				EE9440271FBA876D005FC814 /* UIKit.framework */,
+				EE9440261FBA8762005FC814 /* QuartzCore.framework */,
+				EE9440251FBA8753005FC814 /* OpenGLES.framework */,
+				EE9440241FBA8746005FC814 /* MobileCoreServices.framework */,
+				EE9440231FBA8731005FC814 /* MediaPlayer.framework */,
+				EE9440221FBA8723005FC814 /* CoreVideo.framework */,
+				EE9440211FBA8716005FC814 /* CoreMedia.framework */,
+				EE9440201FBA8706005FC814 /* CoreGraphics.framework */,
+				EE94401F1FBA86F4005FC814 /* AVFoundation.framework */,
+				EE94401E1FBA86DA005FC814 /* AudioToolbox.framework */,
+				EE94401C1FBA86C9005FC814 /* libbz2.tbd */,
+				EE94401A1FBA86BD005FC814 /* libz.tbd */,
+				4313492C39BC8E028C3E6650 /* libPods-LeXiuVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1828FB1F73A20A00EA4F9E = {
+			isa = PBXGroup;
+			children = (
+				EE1829061F73A20A00EA4F9E /* LeXiuVideo */,
+				EE1829051F73A20A00EA4F9E /* Products */,
+				29E3BCFF20FFF4913B05C31E /* Pods */,
+				C8DB7943F2C9DAF7F6116A9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1829051F73A20A00EA4F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1829041F73A20A00EA4F9E /* LeXiuVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1829061F73A20A00EA4F9E /* LeXiuVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C420B1FBA7FEE00F3644D /* MainClass */,
+				EE8C420E1FBA802B00F3644D /* resource */,
+				EE18291E1F73A23700EA4F9E /* jsonData */,
+				EE1829071F73A20A00EA4F9E /* Supporting Files */,
+			);
+			path = LeXiuVideo;
+			sourceTree = "<group>";
+		};
+		EE1829071F73A20A00EA4F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1829081F73A20A00EA4F9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE18291E1F73A23700EA4F9E /* jsonData */ = {
+			isa = PBXGroup;
+			children = (
+				EE94402D1FBA8B5F005FC814 /* videoPageOne.json */,
+			);
+			path = jsonData;
+			sourceTree = "<group>";
+		};
+		EE23683C1FBC3D530027BAF1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EE23683D1FBC3D680027BAF1 /* UIImage+Image.h */,
+				EE23683E1FBC3D680027BAF1 /* UIImage+Image.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EE8C420B1FBA7FEE00F3644D /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				EE23683C1FBC3D530027BAF1 /* Tool */,
+				EE8C42161FBA831C00F3644D /* MainClass */,
+				EE8C420D1FBA801A00F3644D /* System */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		EE8C420D1FBA801A00F3644D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EE18290A1F73A20A00EA4F9E /* AppDelegate.h */,
+				EE18290B1F73A20A00EA4F9E /* AppDelegate.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EE8C420E1FBA802B00F3644D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE1829101F73A20A00EA4F9E /* Main.storyboard */,
+				EE1829131F73A20A00EA4F9E /* Assets.xcassets */,
+				EE1829151F73A20A00EA4F9E /* LaunchScreen.storyboard */,
+				EE1829181F73A20A00EA4F9E /* Info.plist */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		EE8C42161FBA831C00F3644D /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C42171FBA833100F3644D /* Controller */,
+				EE8C42181FBA833C00F3644D /* Model */,
+				EE8C42191FBA834400F3644D /* View */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		EE8C42171FBA833100F3644D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE18290D1F73A20A00EA4F9E /* ViewController.h */,
+				EE18290E1F73A20A00EA4F9E /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE8C42181FBA833C00F3644D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE94402F1FBA8CCD005FC814 /* VideoModel.h */,
+				EE9440301FBA8CCD005FC814 /* VideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE8C42191FBA834400F3644D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE9440321FBA8DC0005FC814 /* VideoCell.h */,
+				EE9440331FBA8DC0005FC814 /* VideoCell.m */,
+				EE7A7CB31FC2BA940023372C /* VideoCell.xib */,
+				EE9440381FBA984B005FC814 /* VideoPlayView.h */,
+				EE9440391FBA984B005FC814 /* VideoPlayView.m */,
+				EE2368371FBC0D9D0027BAF1 /* PlayBottomToolView.h */,
+				EE2368381FBC0D9D0027BAF1 /* PlayBottomToolView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1829031F73A20A00EA4F9E /* LeXiuVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE18291B1F73A20A00EA4F9E /* Build configuration list for PBXNativeTarget "LeXiuVideo" */;
+			buildPhases = (
+				0B144EA52A274A096608B1D5 /* [CP] Check Pods Manifest.lock */,
+				EE1829001F73A20A00EA4F9E /* Sources */,
+				EE1829011F73A20A00EA4F9E /* Frameworks */,
+				EE1829021F73A20A00EA4F9E /* Resources */,
+				1866CD3A5A0F25150EB45679 /* [CP] Embed Pods Frameworks */,
+				25BB607A56A9B9898EED77F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeXiuVideo;
+			productName = LeXiuVideo;
+			productReference = EE1829041F73A20A00EA4F9E /* LeXiuVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1828FC1F73A20A00EA4F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = baoqianli;
+				TargetAttributes = {
+					EE1829031F73A20A00EA4F9E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VR747BYW76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE1828FF1F73A20A00EA4F9E /* Build configuration list for PBXProject "LeXiuVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1828FB1F73A20A00EA4F9E;
+			productRefGroup = EE1829051F73A20A00EA4F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1829031F73A20A00EA4F9E /* LeXiuVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1829021F73A20A00EA4F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7A7CB41FC2BA950023372C /* VideoCell.xib in Resources */,
+				EE1829171F73A20A00EA4F9E /* LaunchScreen.storyboard in Resources */,
+				EE1829141F73A20A00EA4F9E /* Assets.xcassets in Resources */,
+				EE1829121F73A20A00EA4F9E /* Main.storyboard in Resources */,
+				EE94402E1FBA8B5F005FC814 /* videoPageOne.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B144EA52A274A096608B1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1866CD3A5A0F25150EB45679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeXiuVideo/Pods-LeXiuVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BB607A56A9B9898EED77F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeXiuVideo/Pods-LeXiuVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1829001F73A20A00EA4F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE94403A1FBA984B005FC814 /* VideoPlayView.m in Sources */,
+				EE18290F1F73A20A00EA4F9E /* ViewController.m in Sources */,
+				EE9440351FBA8DC0005FC814 /* VideoCell.m in Sources */,
+				EE23683F1FBC3D680027BAF1 /* UIImage+Image.m in Sources */,
+				EE23683A1FBC0D9D0027BAF1 /* PlayBottomToolView.m in Sources */,
+				EE18290C1F73A20A00EA4F9E /* AppDelegate.m in Sources */,
+				EE1829091F73A20A00EA4F9E /* main.m in Sources */,
+				EE9440311FBA8CCD005FC814 /* VideoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE1829101F73A20A00EA4F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1829111F73A20A00EA4F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1829151F73A20A00EA4F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1829161F73A20A00EA4F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1829191F73A20A00EA4F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE18291A1F73A20A00EA4F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE18291C1F73A20A00EA4F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE09823248E4C28D78A8BBE /* Pods-LeXiuVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR747BYW76;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeXiuVideo/framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LeXiuVideo/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianliyun.RoboHotelNew.LeXiuVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE18291D1F73A20A00EA4F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76061682EFDA1571619C1CD /* Pods-LeXiuVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR747BYW76;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeXiuVideo/framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LeXiuVideo/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianliyun.RoboHotelNew.LeXiuVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1828FF1F73A20A00EA4F9E /* Build configuration list for PBXProject "LeXiuVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1829191F73A20A00EA4F9E /* Debug */,
+				EE18291A1F73A20A00EA4F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE18291B1F73A20A00EA4F9E /* Build configuration list for PBXNativeTarget "LeXiuVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE18291C1F73A20A00EA4F9E /* Debug */,
+				EE18291D1F73A20A00EA4F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1828FC1F73A20A00EA4F9E /* Project object */;
+}
