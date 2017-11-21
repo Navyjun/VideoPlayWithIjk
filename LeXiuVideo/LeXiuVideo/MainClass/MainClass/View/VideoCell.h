@@ -20,3 +20,11 @@
 + (instancetype)videoCell:(UITableView *)tableView;
 
 @end
+
+
+@interface ViewCollectionCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *playImageView;
+@property (nonatomic, strong) VideoModel *dataModel;
+
+@end

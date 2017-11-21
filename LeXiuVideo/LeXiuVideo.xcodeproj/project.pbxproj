@@ -16,6 +16,7 @@
 		EE1829171F73A20A00EA4F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1829151F73A20A00EA4F9E /* LaunchScreen.storyboard */; };
 		EE23683A1FBC0D9D0027BAF1 /* PlayBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2368381FBC0D9D0027BAF1 /* PlayBottomToolView.m */; };
 		EE23683F1FBC3D680027BAF1 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EE23683E1FBC3D680027BAF1 /* UIImage+Image.m */; };
+		EE31D79B1FC4048400E2BB57 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31D79A1FC4048400E2BB57 /* HomeViewController.m */; };
 		EE7A7CB41FC2BA950023372C /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A7CB31FC2BA940023372C /* VideoCell.xib */; };
 		EE94401B1FBA86BE005FC814 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94401A1FBA86BD005FC814 /* libz.tbd */; };
 		EE94401D1FBA86C9005FC814 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE94401C1FBA86C9005FC814 /* libbz2.tbd */; };
@@ -46,6 +47,8 @@
 		EE2368381FBC0D9D0027BAF1 /* PlayBottomToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayBottomToolView.m; sourceTree = "<group>"; };
 		EE23683D1FBC3D680027BAF1 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		EE23683E1FBC3D680027BAF1 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		EE31D7991FC4048400E2BB57 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE31D79A1FC4048400E2BB57 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EE7A7CB31FC2BA940023372C /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 		EE94401A1FBA86BD005FC814 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		EE94401C1FBA86C9005FC814 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -221,6 +224,8 @@
 			children = (
 				EE18290D1F73A20A00EA4F9E /* ViewController.h */,
 				EE18290E1F73A20A00EA4F9E /* ViewController.m */,
+				EE31D7991FC4048400E2BB57 /* HomeViewController.h */,
+				EE31D79A1FC4048400E2BB57 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				EE18290F1F73A20A00EA4F9E /* ViewController.m in Sources */,
 				EE9440351FBA8DC0005FC814 /* VideoCell.m in Sources */,
 				EE23683F1FBC3D680027BAF1 /* UIImage+Image.m in Sources */,
+				EE31D79B1FC4048400E2BB57 /* HomeViewController.m in Sources */,
 				EE23683A1FBC0D9D0027BAF1 /* PlayBottomToolView.m in Sources */,
 				EE18290C1F73A20A00EA4F9E /* AppDelegate.m in Sources */,
 				EE1829091F73A20A00EA4F9E /* main.m in Sources */,

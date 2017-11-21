@@ -283,6 +283,8 @@
         
     }else if ((loadState & IJKMPMovieLoadStateStalled) != 0) {
         NSLog(@"loadStateDidChange: IJKMPMovieLoadStateStalled: %d\n", (int)loadState);
+        self.indicatorView.hidden = NO;
+        [self.indicatorView startAnimating];
     } else {
         NSLog(@"loadStateDidChange: ???: %d\n", (int)loadState);
     }
@@ -290,12 +292,13 @@
 
 - (void)moviePlayBackFinish:(NSNotification*)notification {
     int reason =[[[notification userInfo] valueForKey:IJKMPMoviePlayerPlaybackDidFinishReasonUserInfoKey] intValue];
+    // 播放完毕回调
+    if (self.videoPlayFinish) {
+        self.videoPlayFinish(self);
+    }
     switch (reason) {
         case IJKMPMovieFinishReasonPlaybackEnded:{
             // 播放完成
-            if (self.videoPlayFinish) {
-                self.videoPlayFinish(self);
-            }
             NSLog(@"playbackStateDidChange: IJKMPMovieFinishReasonPlaybackEnded: %d\n", reason);
             
         }

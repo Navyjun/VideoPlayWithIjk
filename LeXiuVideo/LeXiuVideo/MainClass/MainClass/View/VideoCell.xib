@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,6 +40,36 @@
             </connections>
             <point key="canvasLocation" x="-49.5" y="213"/>
         </tableViewCell>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ViewCollectionCell" id="OtS-Bx-7wM" customClass="ViewCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="78D-qM-bhF">
+                        <rect key="frame" x="0.0" y="0.0" width="324" height="70"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-play" translatesAutoresizingMaskIntoConstraints="NO" id="dhV-YN-7bw">
+                        <rect key="frame" x="126.5" y="-0.5" width="71" height="71"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dhV-YN-7bw" firstAttribute="centerY" secondItem="OtS-Bx-7wM" secondAttribute="centerY" id="0I9-uJ-30H"/>
+                <constraint firstItem="78D-qM-bhF" firstAttribute="top" secondItem="OtS-Bx-7wM" secondAttribute="top" id="1iR-AE-sLm"/>
+                <constraint firstAttribute="bottom" secondItem="78D-qM-bhF" secondAttribute="bottom" id="75j-WU-GZo"/>
+                <constraint firstItem="dhV-YN-7bw" firstAttribute="centerX" secondItem="OtS-Bx-7wM" secondAttribute="centerX" id="8Dg-Zz-BHP"/>
+                <constraint firstAttribute="trailing" secondItem="78D-qM-bhF" secondAttribute="trailing" id="DeD-AD-I4p"/>
+                <constraint firstItem="78D-qM-bhF" firstAttribute="leading" secondItem="OtS-Bx-7wM" secondAttribute="leading" id="eXC-oA-Spr"/>
+            </constraints>
+            <size key="customSize" width="324" height="70"/>
+            <connections>
+                <outlet property="bgImageView" destination="78D-qM-bhF" id="lM1-QR-bWn"/>
+                <outlet property="playImageView" destination="dhV-YN-7bw" id="ewf-a9-7cM"/>
+            </connections>
+            <point key="canvasLocation" x="73" y="378"/>
+        </collectionViewCell>
     </objects>
     <resources>
         <image name="video-play" width="71" height="71"/>

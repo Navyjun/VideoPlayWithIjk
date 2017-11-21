@@ -45,3 +45,22 @@
 }
 
 @end
+
+
+#pragma mark ------- ViewCollectionCell
+
+@implementation ViewCollectionCell
+
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        self = [[NSBundle mainBundle] loadNibNamed:@"VideoCell" owner:nil options:nil][1];
+    }
+    return self;
+}
+
+- (void)setDataModel:(VideoModel *)dataModel{
+    _dataModel = dataModel;
+    [self.bgImageView sd_setImageWithURL:[NSURL URLWithString:dataModel.imageURL]];
+}
+
+@end
